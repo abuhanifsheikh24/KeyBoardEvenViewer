@@ -1,0 +1,43 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 70vh;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius: 8px;
+    background-color: beige;
+}
+.heading {
+    padding: 10px;
+    display: block;
+    justify-items: center;
+    align-items: center;
+
+}
+.key-board {
+    text-align: center;
+}
+.key-board h4 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #555;
+} 
+.display-box {
+    display: flex;
+    width : 100px;
+    height: 50px;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px 0 rgba( 0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: bold;
+    color : black;
+    background-color: white;  
+}
